@@ -1,87 +1,30 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "oanda-adapter",
-        "scope": null,
-        "escapedName": "oanda-adapter",
-        "name": "oanda-adapter",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "C:\\node1\\oanda"
+    "name": "oanda-adapter-v20",
+    "version": "1.0.0",
+    "description": "oanda adapter for v20",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/polearnik/oandav20.git"
+    },
+    "keywords": [
+        "oanda",
+        "v20"
+    ],
+    "author": "SergheiGr <SergheiGr@gmail.com> (https://github.com/polearnik/oandav20)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/polearnik/oandav20/issues"
+    },
+    "homepage": "https://github.com/polearnik/oandav20#readme",
+    "dependencies": [
+        "underscore",
+        "backbone-events-standalone",
+        "querystring",
+        "http",
+        "https"
     ]
-  ],
-  "_from": "oanda-adapter@latest",
-  "_id": "oanda-adapter@0.1.15",
-  "_inCache": true,
-  "_location": "/oanda-adapter",
-  "_nodeVersion": "0.12.0",
-  "_npmUser": {
-    "name": "cloud9trader",
-    "email": "support@cloud9trader.com"
-  },
-  "_npmVersion": "2.5.1",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "oanda-adapter",
-    "scope": null,
-    "escapedName": "oanda-adapter",
-    "name": "oanda-adapter",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
-  },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/oanda-adapter/-/oanda-adapter-0.1.15.tgz",
-  "_shasum": "2fad82a464db76e241d74849bb68d039f06ff42d",
-  "_shrinkwrap": null,
-  "_spec": "oanda-adapter",
-  "_where": "C:\\node1\\oanda",
-  "author": {
-    "name": "Jon Kafton",
-    "email": "support@cloud9trader.com"
-  },
-  "bugs": {
-    "url": "https://github.com/Cloud9Trader/oanda-adapter/issues"
-  },
-  "dependencies": {
-    "backbone-events-standalone": "~0.2.1",
-    "underscore": "~1.6.0"
-  },
-  "description": "Node.js adapter for OANDA's REST and streaming API.",
-  "devDependencies": {},
-  "directories": {},
-  "dist": {
-    "shasum": "2fad82a464db76e241d74849bb68d039f06ff42d",
-    "tarball": "https://registry.npmjs.org/oanda-adapter/-/oanda-adapter-0.1.15.tgz"
-  },
-  "gitHead": "4ce0898a3ae1e7a042343ba4837ca812d4a5b14a",
-  "homepage": "https://github.com/Cloud9Trader/oanda-adapter",
-  "keywords": [
-    "trading",
-    "broker",
-    "adapter",
-    "server"
-  ],
-  "license": "MIT",
-  "main": "OandaAdapter.js",
-  "maintainers": [
-    {
-      "name": "cloud9trader",
-      "email": "support@cloud9trader.com"
-    }
-  ],
-  "name": "oanda-adapter",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cloud9Trader/oanda-adapter.git"
-  },
-  "scripts": {},
-  "version": "0.1.15"
 }

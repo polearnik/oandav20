@@ -16,7 +16,7 @@ See also [OANDA Developer's API](http://developer.oanda.com/docs/).
 ## Installation
 
 ```bash
-npm install oanda-adapter
+npm install oanda-adapter-v20
 ```
 
 ## API Overview
