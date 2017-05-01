@@ -1,30 +1,30 @@
 {
-    "name": "oanda-adapter-v20",
-    "version": "1.0.0",
-    "description": "oanda adapter for v20",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/polearnik/oandav20.git"
-    },
-    "keywords": [
-        "oanda",
-        "v20"
-    ],
-    "author": "SergheiGr <SergheiGr@gmail.com> (https://github.com/polearnik/oandav20)",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/polearnik/oandav20/issues"
-    },
-    "homepage": "https://github.com/polearnik/oandav20#readme",
-    "dependencies": [
-        "underscore",
-        "backbone-events-standalone",
-        "querystring",
-        "http",
-        "https"
-    ]
+  "name": "oanda-adapter-v20",
+  "version": "1.0.1",
+  "description": "oanda adapter for v20",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polearnik/oandav20.git"
+  },
+  "keywords": [
+    "oanda",
+    "v20"
+  ],
+  "author": "SergheiGr <SergheiGr@gmail.com> (https://github.com/polearnik/oandav20)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polearnik/oandav20/issues"
+  },
+  "homepage": "https://github.com/polearnik/oandav20#readme",
+  "dependencies": [
+    "underscore",
+    "backbone-events-standalone",
+    "querystring",
+    "http",
+    "https"
+  ]
 }
