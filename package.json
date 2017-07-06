@@ -1,30 +1,96 @@
 {
-  "name": "oanda-adapter-v20",
-  "version": "1.0.1",
+  "_args": [
+    [
+      {
+        "raw": "oanda-adapter-v20",
+        "scope": null,
+        "escapedName": "oanda-adapter-v20",
+        "name": "oanda-adapter-v20",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\node1\\fusion_oanda"
+    ]
+  ],
+  "_from": "oanda-adapter-v20@latest",
+  "_id": "oanda-adapter-v20@1.0.1",
+  "_inCache": true,
+  "_location": "/oanda-adapter-v20",
+  "_nodeVersion": "5.12.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/oanda-adapter-v20-1.0.1.tgz_1493628628842_0.07202057633548975"
+  },
+  "_npmUser": {
+    "name": "polearnik",
+    "email": "polearnik@gmail.com"
+  },
+  "_npmVersion": "3.8.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "oanda-adapter-v20",
+    "scope": null,
+    "escapedName": "oanda-adapter-v20",
+    "name": "oanda-adapter-v20",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/oanda-adapter-v20/-/oanda-adapter-v20-1.0.1.tgz",
+  "_shasum": "328b40e446d5cda2ce2b3ea31ddac8c6a98e1ebb",
+  "_shrinkwrap": null,
+  "_spec": "oanda-adapter-v20",
+  "_where": "C:\\node1\\fusion_oanda",
+  "author": {
+    "name": "SergheiGr",
+    "email": "SergheiGr@gmail.com",
+    "url": "https://github.com/polearnik/oandav20"
+  },
+  "bugs": {
+    "url": "https://github.com/polearnik/oandav20/issues"
+  },
+  "dependencies": {
+    "backbone-events-standalone": "",
+    "http": "",
+    "https": "",
+    "querystring": "",
+    "underscore": ""
+  },
   "description": "oanda adapter for v20",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "328b40e446d5cda2ce2b3ea31ddac8c6a98e1ebb",
+    "tarball": "https://registry.npmjs.org/oanda-adapter-v20/-/oanda-adapter-v20-1.0.1.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/polearnik/oandav20.git"
-  },
+  "gitHead": "3d5ae8c398b9b4deea8d35aa247b4b67a1614aa7",
+  "homepage": "https://github.com/polearnik/oandav20#readme",
   "keywords": [
     "oanda",
     "v20"
   ],
-  "author": "SergheiGr <SergheiGr@gmail.com> (https://github.com/polearnik/oandav20)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/polearnik/oandav20/issues"
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "polearnik",
+      "email": "polearnik@gmail.com"
+    }
+  ],
+  "name": "oanda-adapter-v20",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polearnik/oandav20.git"
   },
-  "homepage": "https://github.com/polearnik/oandav20#readme",
-  "dependencies": [
-    "underscore",
-    "backbone-events-standalone",
-    "querystring",
-    "http",
-    "https"
-  ]
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
 }
